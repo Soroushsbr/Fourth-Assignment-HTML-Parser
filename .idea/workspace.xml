@@ -5,22 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c5f1c1e-36a8-4afc-9c78-9158883033c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Project-Reddit/.idea/Project-Reddit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Explore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/StartUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/SubReddit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Java Projects.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../First-Assignment-Warm-Up" beforeDir="false" afterPath="$PROJECT_DIR$/../First-Assignment-Warm-Up" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/HockeyMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/HockeyMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../New folder/Third-Assignment-Hogwarts" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/Third-Assignment-Hogwarts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/Main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Explore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Explore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/StartUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/SubReddit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/SubReddit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/Test.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2fYHSGMpFmpKV4MM7TfpV88Jrbh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,9 +67,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "C:/Users/Lenovo/Desktop/Java Projects/html/src/main/java/com/example/html"
+    "last_directory_selection": "C:/Users/Lenovo/Desktop/Java Projects/html/src/main/java/com/example/html",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/Java Projects/Fourth-Assignment-HTML-Parser/src/main/resources/com/example/html"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\Java Projects\Fourth-Assignment-HTML-Parser\src\main\resources\com\example\html" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Parser">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.html.HelloApplication" />
@@ -98,6 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713971090083</updated>
       <workItem from="1713971091329" duration="10154000" />
+      <workItem from="1713986431114" duration="1284000" />
     </task>
     <servers />
   </component>

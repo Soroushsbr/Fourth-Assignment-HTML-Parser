@@ -2,6 +2,7 @@ package com.example.html;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
@@ -14,8 +15,11 @@ import java.util.List;
 
 public class HockeyMenu {
     List<Hockey> hockeys = new ArrayList<>();
+    @FXML
+    ComboBox<String> sortOptions;
     public void setHockeys(){
         Parser parser = new Parser();
+        Collections.addAll(sortOptions.getItems() , "Name" , "Year" , "Win");
         parser.setUpHocky(hockeys);
         viewList(hockeys);
     }
@@ -39,6 +43,7 @@ public class HockeyMenu {
                 return Integer.compare(o1.getYear(), o2.getYear());
             }
         });
+        Collections.reverse(sortedByYear);
         return sortedByYear;
     }
 
@@ -47,9 +52,10 @@ public class HockeyMenu {
         Collections.sort(sortedByWins, new Comparator<Hockey>() {
             @Override
             public int compare(Hockey o1, Hockey o2) {
-                return Integer.compare(o1.getYear(), o2.getYear());
+                return Integer.compare(o1.getWins(), o2.getWins());
             }
         });
+        Collections.reverse(sortedByWins);
         return sortedByWins;
     }
     @FXML
@@ -68,6 +74,19 @@ public class HockeyMenu {
             }
         }catch (IOException e){
             e.printStackTrace();
+        }
+    }
+    public void selectSort(){
+        String selectedSort = sortOptions.getValue();
+        if(selectedSort.equals("Name")){
+            List<Hockey> sortedByName = sortByName();
+            viewList(sortedByName);
+        }else if(selectedSort.equals("Year")){
+            List<Hockey> sortedByYear = sortByYear();
+            viewList(sortedByYear);
+        }else if(selectedSort.equals("Win")){
+            List<Hockey> sortedByWins = sortByWins();
+            viewList(sortedByWins);
         }
     }
 }

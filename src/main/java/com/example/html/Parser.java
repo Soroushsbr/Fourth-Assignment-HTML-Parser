@@ -18,6 +18,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.File;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.*;
 
 public class Parser extends Application {
@@ -58,8 +59,9 @@ public class Parser extends Application {
 
     public void setUp(List<Country> countries){
         try {
-            File htmlFile = new File("C:\\Users\\Lenovo\\Desktop\\Java Projects\\Fourth-Assignment-HTML-Parser\\src\\country_resources\\country-list.html");
+//            File htmlFile = new File("C:\\Users\\Lenovo\\Desktop\\Java Projects\\Fourth-Assignment-HTML-Parser\\src\\country_resources\\country-list.html");
 //        File htmlFile = new File("Fourth-Assignment-HTML-Parser\\src\\country_resources\\country-list.html");
+            File htmlFile = new File(getClass().getResource("country-list.html").toURI());
             Document document;
             document = Jsoup.parse(htmlFile, "UTF-8");
             Elements extractedCountries = document.select(".country");
@@ -74,6 +76,8 @@ public class Parser extends Application {
             }
         }catch (IOException e){
             e.printStackTrace();
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
         }
     }
 
@@ -88,7 +92,7 @@ public class Parser extends Application {
         try{
             //parse every page of website
             hockeys.clear();
-            for(int i = 1 ; i < 15 ; i++) {
+            for(int i = 1 ; i < 10 ; i++) {
                 Document document = Jsoup.connect("https://www.scrapethissite.com/pages/forms/?page_num=" + i).get();
                 Elements datas = document.select(".team");
                 for (Element data : datas) {

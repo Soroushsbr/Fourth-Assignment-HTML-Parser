@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="html" target="17" />
+      <module name="org.example.HTML-Parser" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
