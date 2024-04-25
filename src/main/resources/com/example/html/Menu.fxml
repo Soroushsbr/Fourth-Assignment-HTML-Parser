@@ -5,17 +5,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="418.0" prefWidth="780.0" style="-fx-background-color: #282A36;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.html.Parser">
+<AnchorPane prefHeight="418.0" prefWidth="780.0" style="-fx-background-color: #1F363D;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.html.Parser">
    <children>
-      <Button fx:id="countryBtn" layoutX="150.0" layoutY="146.0" mnemonicParsing="false" onAction="#countryScene" prefHeight="126.0" prefWidth="197.0" style="-fx-background-color: #6272A4; -fx-background-radius: 10;" text="Countries">
+      <Button fx:id="countryBtn" layoutX="150.0" layoutY="146.0" mnemonicParsing="false" onAction="#countryScene" prefHeight="126.0" prefWidth="197.0" style="-fx-background-color: #9EC1A3; -fx-background-radius: 10;" text="Countries">
          <font>
-            <Font size="26.0" />
+            <Font name="System Bold" size="25.0" />
          </font>
       </Button>
-      <Button fx:id="hockeyBtn" layoutX="434.0" layoutY="146.0" mnemonicParsing="false" onAction="#hockeyScene" prefHeight="126.0" prefWidth="197.0" style="-fx-background-color: #6272A4; -fx-background-radius: 10;" text="Hockey Team">
+      <Button fx:id="hockeyBtn" layoutX="434.0" layoutY="146.0" mnemonicParsing="false" onAction="#hockeyScene" prefHeight="126.0" prefWidth="197.0" style="-fx-background-color: #9EC1A3; -fx-background-radius: 10;" text="Hockey Team">
          <font>
-            <Font size="24.0" />
+            <Font name="System Bold" size="25.0" />
          </font>
       </Button>
       <Label fx:id="loadingLabel" layoutX="303.0" layoutY="64.0" text="This might take a while" textFill="WHITE" visible="false">

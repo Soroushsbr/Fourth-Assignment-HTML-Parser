@@ -137,15 +137,15 @@ public class Parser extends Application {
         stage.show();
     }
 
+
     public void hockeyScene(ActionEvent event) throws IOException{
-        loadingLabel.setVisible(true);
         FXMLLoader loader = new FXMLLoader(getClass().getResource("HockeyMenu.fxml"));
         root = loader.load();
-        HockeyMenu hockeyMenu = loader.getController();
-        hockeyMenu.setHockeys();
         stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+        HockeyMenu hockeyMenu = loader.getController();
+        hockeyMenu.setHockeys();
     }
 }

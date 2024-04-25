@@ -7,7 +7,16 @@
     <list default="true" id="3c5f1c1e-36a8-4afc-9c78-9158883033c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/Java Projects.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../First-Assignment-Warm-Up" beforeDir="false" afterPath="$PROJECT_DIR$/../First-Assignment-Warm-Up" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/CountryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/CountryMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/HockeyMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/HockeyMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/html/CountryMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/html/CountryMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/html/HockeyMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/html/HockeyMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/html/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/html/Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/html/vboxCountry.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/html/vboxCountry.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../New folder/Third-Assignment-Hogwarts" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/Third-Assignment-Hogwarts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reddit/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Reddit/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/.idea/compiler.xml" afterDir="false" />
@@ -43,7 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,15 +71,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "C:/Users/Lenovo/Desktop/Java Projects/html/src/main/java/com/example/html",
-    "last_opened_file_path": "C:/Users/Lenovo/Desktop/Java Projects/Fourth-Assignment-HTML-Parser/src/main/resources/com/example/html"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Lenovo/Desktop/Java Projects/html/src/main/java/com/example/html&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/Java Projects/Fourth-Assignment-HTML-Parser/src/main/resources/com/example/html&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Desktop\Java Projects\Fourth-Assignment-HTML-Parser\src\main\resources\com\example\html" />
@@ -120,6 +129,7 @@
       <updated>1713971090083</updated>
       <workItem from="1713971091329" duration="10154000" />
       <workItem from="1713986431114" duration="1284000" />
+      <workItem from="1714069001351" duration="5569000" />
     </task>
     <servers />
   </component>

@@ -34,7 +34,7 @@ public class Country {
 
     @Override
     public String toString() {
-        return "Country: " + name + "\nCapital: " + capital + "\nPopulation: " + population + "\nArea: " + area + "Km²";
+        return "Country: " + name + "\nCapital: " + capital + "\nPopulation: " + population + "\nArea: " + area + " Km²";
     }
 
     @Override

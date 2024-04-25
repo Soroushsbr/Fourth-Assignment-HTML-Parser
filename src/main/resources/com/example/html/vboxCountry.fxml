@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="47.0" prefWidth="527.0" style="-fx-background-color: #44475A; -fx-border-color: gray;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.html.CountryMenu">
+<AnchorPane prefHeight="47.0" prefWidth="527.0" style="-fx-background-color: #40798c; -fx-border-color: gray;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.html.CountryMenu">
    <children>
       <Label layoutX="14.0" layoutY="12.0" prefHeight="19.0" prefWidth="130.0" text="Name" textFill="WHITE">
          <font>
@@ -27,5 +27,6 @@
             <Font size="13.0" />
          </font>
       </Label>
+      <Hyperlink layoutX="1.0" layoutY="3.0" opacity="0.0" prefHeight="40.0" prefWidth="516.0" />
    </children>
 </AnchorPane>
