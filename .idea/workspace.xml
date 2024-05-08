@@ -4,92 +4,147 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a605dfff-ee43-4feb-8a32-11c0aa0402f8" name="Changes" comment="" />
+    <list default="true" id="3c5f1c1e-36a8-4afc-9c78-9158883033c3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/Java Projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First-Assignment-Warm-Up" beforeDir="false" afterPath="$PROJECT_DIR$/../First-Assignment-Warm-Up" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/CountryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/CountryMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/HockeyMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/HockeyMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/html/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/html/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/html/CountryMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/html/CountryMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/html/HockeyMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/html/HockeyMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/html/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/html/Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/html/vboxCountry.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/html/vboxCountry.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Third-Assignment-Hogwarts" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/Third-Assignment-Hogwarts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/Main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Explore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Explore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/StartUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/SubReddit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reddit/src/main/java/com/example/reddit/SubReddit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/Test.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2czxOLfEywYECmtdYeXccYebHio" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2fYHSGMpFmpKV4MM7TfpV88Jrbh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Asus/Desktop/placeHolder/Second-Assignment-CineScribe",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Lenovo/Desktop/Java Projects/html/src/main/java/com/example/html&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/Java Projects/Fourth-Assignment-HTML-Parser/src/main/resources/com/example/html&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\homework\semester 4\TA\HTML-Parser\src\main\java" />
+      <recent name="C:\Users\Lenovo\Desktop\Java Projects\Fourth-Assignment-HTML-Parser\src\main\resources\com\example\html" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ParserTest.testSortByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ParserTest.testSortByName&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.Parser">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.html.HelloApplication" />
+      <module name="html" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.html.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.html.Parser" />
+      <module name="html" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.html.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ParserTest.testSortByName" />
+        <item itemvalue="Application.Parser" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a605dfff-ee43-4feb-8a32-11c0aa0402f8" name="Changes" comment="" />
-      <created>1709128175583</created>
+      <changelist id="3c5f1c1e-36a8-4afc-9c78-9158883033c3" name="Changes" comment="" />
+      <created>1713971090083</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709128175583</updated>
-      <workItem from="1709128177461" duration="3475000" />
-      <workItem from="1709131890398" duration="40000" />
-      <workItem from="1709132777776" duration="1878000" />
-      <workItem from="1709147208766" duration="626000" />
-      <workItem from="1709754207930" duration="532000" />
+      <updated>1713971090083</updated>
+      <workItem from="1713971091329" duration="10154000" />
+      <workItem from="1713986431114" duration="1284000" />
+      <workItem from="1714069001351" duration="5569000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

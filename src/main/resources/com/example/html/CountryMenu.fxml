@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="418.0" prefWidth="780.0" style="-fx-background-color: #1f363d;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.html.CountryMenu">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" layoutX="126.0" layoutY="119.0" prefHeight="249.0" prefWidth="529.0" style="-fx-background-color: #1f363d;">
+         <content>
+            <VBox fx:id="vbox" prefHeight="247.0" prefWidth="527.0" style="-fx-background-color: #9ec1a3;" />
+         </content>
+      </ScrollPane>
+      <ComboBox fx:id="sortOptions" layoutX="126.0" layoutY="69.0" prefHeight="25.0" prefWidth="74.0" promptText="Sort" style="-fx-background-color: #70a9a1;" />
+      <Button layoutX="200.0" layoutY="69.0" mnemonicParsing="false" onAction="#selectSort" style="-fx-background-color: #70a9a1;" text="✔" textFill="WHITE" />
+      <Label layoutX="126.0" layoutY="94.0" prefHeight="25.0" prefWidth="529.0" text="Country           |           Capital            |            Population             |               Area" textFill="#f9fff6">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="backPane" arcHeight="5.0" arcWidth="5.0" height="419.0" opacity="0.32" stroke="BLACK" strokeType="INSIDE" visible="false" width="780.0" />
+      <AnchorPane fx:id="countryPane" layoutX="126.0" layoutY="69.0" prefHeight="230.0" prefWidth="529.0" style="-fx-background-color: #1F363D; -fx-background-radius: 10; -fx-border-color: #9EC1A3; -fx-border-radius: 10; -fx-border-insets: 0.5;" visible="false">
+         <children>
+            <Label fx:id="countryLabel" alignment="TOP_LEFT" layoutX="20.0" layoutY="22.0" prefHeight="118.0" prefWidth="275.0" text="Label" textFill="#f6f8f4">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="flagImage" fitHeight="101.0" fitWidth="175.0" layoutX="321.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+            <Hyperlink layoutX="496.0" layoutY="11.0" onAction="#closeSelectedCountry" text="❌" textFill="WHITE">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Hyperlink>
+            <Label fx:id="contentLabel" alignment="TOP_LEFT" layoutX="17.0" layoutY="131.0" prefHeight="93.0" prefWidth="496.0" text="content" textFill="WHITE">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Hyperlink layoutX="746.0" layoutY="14.0" onAction="#Menu" text="❌" textFill="WHITE" />
+   </children>
+</AnchorPane>
